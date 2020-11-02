@@ -23,23 +23,7 @@ pause() {
 }
 banner() {
     clear
-    echo -e "\e[1;31m"
-    if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
-    else
-        figlet TBomb
-    fi
-    if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
-    else
-        echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border SpeedX
-    fi
-    echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-    echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/GyanaTech \e[0m"
-    echo " "
-
+    
 }
 
 init_environ(){
